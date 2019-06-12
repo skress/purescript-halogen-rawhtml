@@ -5,7 +5,7 @@ Dead simple component for rendering Raw HTML in Halogen components.
 
 **Note**
 
-*This component is written for Halogen 5.
+This component is written for Halogen 5.
 For Halogen 4 see [this snippet](https://gist.github.com/prathje/7422e49b7c809fe8236bb2f213e7076e) for a similar implementation in Halogen 4
 
 ### How to use
