@@ -3,6 +3,10 @@ purescript-halogen-rawhtml
 
 Dead simple component for rendering Raw HTML in Halogen components.
 
+### Warning
+
+This component injects raw html into your view without any validation of the HTML being injected whatsoever. Use this only if you trust the source of HTML being used.
+
 **Note**
 
 This component is written for Halogen 5.
@@ -53,24 +57,3 @@ The page should display the following HTML
 
 <p> This should be enclosed within a 'p' tag </p>
 ```
-
-### Installation 
-
-This package is not a part of any package set.
-Use [Spago](https://github.com/spacchetti/spago) instead of bower.
-
-To install simply add this to ./spago.dhall
-
-    , dependencies = 
-        [ "halogen-rawhtml" <- add this
-
-And then in ./packages.dhall
-
-    let additions = 
-      { halogen-rawhtml = 
-        mkPackage
-        [ "halogen"
-        ]
-        "https://github.com/naglalakk/purescript-halogen-rawhtml"
-        "master"
-      }
