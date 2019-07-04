@@ -1,11 +1,11 @@
 purescript-halogen-rawhtml
 ==========================
 
-Dead simple component for rendering Raw HTML in Halogen components.
+Dead simple component for rendering Raw HTML in Halogen views.
 
 ### Warning
 
-This component injects raw html into your view without any validation of the HTML being injected whatsoever. Use this only if you trust the source of HTML being used.
+This component injects raw html into your view without any validation of the HTML being injected whatsoever. Use this only if you trust the source of HTML being used. For this reason this package is not published as an official library but is more a demonstration of how you can use raw html within your Halogen component. 
 
 **Note**
 
