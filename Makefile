@@ -6,10 +6,10 @@ install:
 	spago install && $(PCK_MANAGER) install
 
 example:
-	make bundle && http-server -o
+	make bundle && npx http-server -o
 
 bundle:
-	spago build --path 'example/**/*.purs' && spago bundle --main Example.Main --to example/dist/index.js
+	spago build --path 'example/**/*.purs' && spago bundle-app --main Example.Main --to example/dist/index.js
 
 test:
 	spago test
