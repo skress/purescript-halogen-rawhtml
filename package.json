@@ -1,6 +1,6 @@
 {
   "name": "purescript-halogen-rawhtml",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "RawHTML component for purescript-halogen",
   "main": "index.js",
   "author": "Thordur Hermannsson <doddi@kott.is>",
